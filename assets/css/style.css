@@ -8,9 +8,9 @@
 body {
     font-family: 'Oswald', arial;
     letter-spacing: 3px;
-    /* font-weight: 400;
+    /* font-weight: 400; */
     font-weight: 300; 
-    - undecided*/
+    
 }
 
 /* Home background image and navbar section */
@@ -106,7 +106,7 @@ body {
 }
 
 
-button {
+#home-page-btn {
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -170,7 +170,7 @@ span {
     float: right;
 }
 
-.cont {
+.text-container {
     width: 50%;
     height: 50%;
     margin: 0 auto;
@@ -210,12 +210,25 @@ span {
 }
 
 
-button {
+#sign-up-btn {
     color: black;
-    /* background-color: #CB3D00;
-    
-    align-items: center;
-    border-radius: 10px; */
-    
+    background-color: #fff;
+    border: 3px solid #CB3D00;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    align-items: center; 
 }
+
+#sign-up-btn:hover {
+    background: white;
+    background-color: #CB3D00;
+
+    color: white;
+}
+
+
 
