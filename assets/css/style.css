@@ -265,14 +265,14 @@ h3 {
     align-items: center;
     padding-top: 40px;
     letter-spacing: 4px;
-    color: #CB3D00;
+    color: black;
     font-size: 50px;
     text-transform: capitalize;
 }
 
 #membership hr {
     width: 70%;
-    border-bottom: 3px solid #CB3D00;
+    border-bottom: 3px solid gray;
     margin-left: 220px;
 }
 
@@ -314,12 +314,6 @@ h3 {
     object-fit: cover;
 }
 
-/* hr {
-    border-bottom: 1px solid black;
-    width: 80%;
-    margin-left: 20px;
-} */
-
 .card h4 {
     text-transform: uppercase;
 }
@@ -329,16 +323,77 @@ h3 {
     color: black;
 }
 
+/* footer section */
 
 #footer {
-    background: #F7F7F7;
     width: 100%;
     height: 50vh;
+    display: flex;
+    background-color: #F7F7F7;
+    text-align: center;
+    justify-content: center;
 }
 
-#footer hr {
-    border: 1px solid black;
-    width: 100%;
+#quick-menu {
+    width: 33.33%;
+    height: 100%;
+}
+
+h5 {
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+
+#quick-menu ul {
+    margin-left: 50px;
+    line-height: 60px;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#quick-menu ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+#motivational-quote {
+    width: 33.33%;
+    height: 100%;
+}
+
+q {
+    font-weight: bold;
+}
+
+#quote {
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+    padding: 30px;
+    color: gray;
+    font-size: 25px;
+}
+
+#social-media-links {
+    width: 33.33%;
+    height: 100%;
+}
+
+#links {
+    margin-left: 50px;
+    line-height: 60px;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 
