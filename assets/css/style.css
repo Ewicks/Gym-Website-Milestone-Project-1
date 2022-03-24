@@ -59,7 +59,6 @@ body {
 .navbar ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 0px;
     position: relative;
 }
 
@@ -150,6 +149,7 @@ span {
     width: 100%;
     height: 100vh;
     background-color: white;
+    position: relative;
 }
 
 .left-container {
@@ -176,8 +176,11 @@ span {
     width: 50%;
     height: 50%;
     margin: 0 auto;
-    margin-top: 25vh;
-
+    margin-top: 200px;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: center;
 }
 
 .text-container h2 {
@@ -201,8 +204,7 @@ span {
 
 .fancy-style:hover {
     background-size: 100% 3px;
-    color: inherit;
-  }
+}
 
 
 
@@ -215,10 +217,8 @@ span {
     text-align: center;
     margin: 20px 75px;
     border-radius: 25px;
-    font-weight: bold;
-    align-items: center; 
+    font-weight: bold; 
     text-transform: uppercase;
-    position: relative;
     overflow: hidden;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -264,25 +264,39 @@ h3 {
 .card {
     margin: 30px;
     border-radius: 10px;
-    overflow: hidden;
-    border: 3px solid var(--color-red);
-    background-color: rgb(203, 61, 0, .25);
+    background-color: white;
     width: 300px;
     padding-bottom: 10px;
+    cursor: pointer;
 } 
+
+.card:hover {
+    box-shadow: 10px 10px 25px grey;
+    width: 350px;
+    height: 525px;
+}
+
 
 .card button {
     width: 150px;
     padding: 10px 0;
     margin-bottom: 10px;
-    color: #fff;
-    background-color: var(--color-red);
+    color: #000;
+    background-color: rgba(203, 61, 0, .25);
     border: 2px solid var(--color-red);
     text-align: center;
     border-radius: 25px;
     font-weight: bold;
     align-items: center; 
     text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.card button:hover {
+    background-color: var(--color-red);
+    color: #fff;
+    
 }
 
 .header img {
