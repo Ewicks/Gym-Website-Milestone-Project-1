@@ -41,13 +41,18 @@
                 <h6>Get in contact with us here</h6>
                 <p>If you have any questions we would be happy to help</p>
             </div>
-            <div id="form-shape">
-                <div class="top-section">
+            <div id="form-container">
+                <form action="action_page.php">
                     <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
                     <label for="lname">Last Name</label>
-                </div>
-                    <input type="text" id="fname" name="fname">
-                    <input type="text" id="lname" name="lname">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your nationality..">
+                    <label for="subject">Any Questions</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
 
             </div>
         </div>
