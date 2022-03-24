@@ -54,6 +54,8 @@ body {
     text-decoration: none;
     font-size: large;
     color: white;
+    display: flex;
+    
 }
 
 .navbar ul li {
