@@ -163,8 +163,6 @@ span {
     float: left;
 }
 
-
-
 .right-container {
     width: 50%;
     height: 100vh;
@@ -206,8 +204,6 @@ span {
     background-size: 100% 3px;
 }
 
-
-
 #sign-up-btn {
     width: 200px;
     padding: 15px 0;
@@ -236,6 +232,7 @@ span {
     width: 100%;
     height: 100vh;
     text-align: center;
+    position: relative;
 }
 
 h3 {
@@ -312,6 +309,28 @@ h3 {
 .card p {
     padding: 10px;
     color: black;
+}
+
+.arrow-up {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.arrow-up a i {
+    font-size: 50px;
+}
+
+.arrow-up a, .arrow-up a:visited{
+    color: black;
+}
+
+#arrow-up h2{
+    margin-bottom: 200px;
 }
 
 /* footer section */
@@ -396,7 +415,6 @@ q {
 #links li a, #links li a:visited {
     text-decoration: none;
     color: gray;
-    
 }
 
 #links li a {
