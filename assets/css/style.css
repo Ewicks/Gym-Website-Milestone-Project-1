@@ -13,8 +13,7 @@
 
 body {
     font-family: 'Oswald', arial;
-    letter-spacing: 3px;
-    /* font-weight: 400; */
+    letter-spacing: 2px;
     font-weight: 300; 
     
 }
@@ -119,29 +118,13 @@ body {
     background:rgba(0, 150, 136, .25);
     color: #fff;
     cursor: pointer;
-    position: relative;
-    overflow: hidden;
     text-transform: uppercase;
-}
-
-span {
-    background: #009688;
-    height: 100%;
-    width: 0%;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-}
-
-#home-page-btn:hover span{
-    width: 100%
+    transition: all 0.2s ease-in-out;;
 }
 
 #home-page-btn:hover {
     border: none;
+    background-color: #009688;
 }
 
 
@@ -178,13 +161,14 @@ span {
     margin: 0 auto;
     margin-top: 200px;
     position: absolute;
-    top: 30%;
+    top: 5%;
     transform: translateY(-50%);
     text-align: center;
 }
 
 .text-container h2 {
     text-align: center;
+    font-size: 40px;
 }
 
 .text-container p {
@@ -192,6 +176,7 @@ span {
     line-height: 1.6;
     margin-top: 10px;
     color: #575757;
+    font-size: 20px;
 }
 
 .fancy-style {
