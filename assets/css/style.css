@@ -258,7 +258,6 @@ h3 {
     box-shadow: 10px 10px 25px grey;
 }
 
-
 .card button {
     width: 150px;
     padding: 10px 0;
@@ -296,7 +295,12 @@ h3 {
     color: black;
 }
 
-.arrow-up {
+.card i {
+    color: var(--color-red);
+}
+
+
+/* .arrow-up {
     position: absolute;
     top: 92%;
     left: 50%;
@@ -316,7 +320,7 @@ h3 {
 
 #arrow-up h2{
     margin-bottom: 200px;
-}
+} */
 
 /* footer section */
 
