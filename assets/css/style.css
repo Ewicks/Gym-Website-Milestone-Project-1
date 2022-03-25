@@ -424,7 +424,6 @@ q {
 #meet-the-team {
     width: 100%;
     height: 125vh;
-    
 }
 
 #meet-the-team-heading {
@@ -499,6 +498,7 @@ q {
 
 .pt-container {
     display: flex;
+    line-height: 1.8;
 }
 
 .subheading {
@@ -578,6 +578,16 @@ iframe {
 .center h6 {
     font-size: 25px;
     margin-bottom: 20px;
+}
+
+.center p {
+    margin: 0px 30px;
+}
+
+.partition {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    margin: 0px 50px;
 }
 
 /* Conact Us section */
