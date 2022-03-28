@@ -1,59 +1,83 @@
-# Love Running
+# Content
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+# Fitness Culture
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+Fitness Culture is a gym located in London that needs more customers to continue to increase monthly profits. I have created a website to help advertise Fitness Culture's gym which will help spread awareness and increase the number of monthly memberships. People that visit the website will get an detailed to insight to what they can expect if they join. The website will provide information such as; monthly membership prices, a motivational story and quote, location, meet the team section and how visitors can get in touch with Fitness Culture via a contact section.
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
-![Responsice Mockup](doc/man.jpeg)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+It's important that all pages are responsive on small, medium and large devices. Also that all pages are  
+intuitively  designed to make it easy for the user to navigate.
 
-### Existing Features
+### Home Page Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The navigation bar is located ontop of the background image to create a modern style navbar.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+  - When the user hovers over a section, a white bar appears below to make it clear which section they are about to press.
+  This is used in all pages of the website at the top for easy navigation.
 
-- __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Nav Bar](doc/screenshots/navbar.png)
 
-- __Club Ethos Section__
+- __Home Page__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The home page contains a large bold heading welcoming the user to Fitness Culture, this page's priority is to place the gym's name in the spotlight
+  so that the user is more likely to remember Fitness Culture.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  - The background has a black gradient ontop of the image to create a larger contrast in color between the navbar and the background to make the white navbar stand out more.
 
-- __Meetup Times section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+![Landing Page](doc/screenshots/home-page.png)
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+- __Life Expearience section__
+
+  - This section contains a motivational story from someone who has had the Fitness
+  Culture expearience, the user will see someone's real life benefits from joining Fitness Culture which will encourage them to buy a membership.
+
+  - An image is also used so you have visual proof as well as wriiten proof of
+  the journey which will help emphersize the value of joining the gym.
+
+![Life Expearience](doc/screenshots/life-expearience.png)
+
+- __Membership section__
+
+  This section displays all 3 types of memberships that are offered. The prices vary a lot in order for everone viewing are able to buy one even if they have low incomes.
+
+  - When the user hovers over a membership card, the card will display a shadow behind it, highlighting to the user which membership they are about to click.
+
+![Membership](doc/screenshots/membership.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer consits of three sections for medium and larger devices, a quick menu, a motivational quote and my socials.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+  - The quick menu is there so that the user has easy access to all sections without having to scroll all the way up. 
 
-- __Gallery__
+  - The socials and quick menu have a black hover efftect to increase the user friendly navigation. 
+
+  - The socials will be opened in a new tab so they not directed away from the website entirely. 
+
+![Footer](doc/screenshots/footer.png)
+
+
+### About Us Page Features
+
+- __Meet-the-team section__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+
+  - This section shows pictures of the trainers and a description of what they are like and why they love their job.
+
+  - 
+
+![Meet the Team](doc/screenshots/meet-the-team.png)
 
 - __The Sign Up Page__
 
