@@ -42,7 +42,7 @@ body {
 }
 
 .border-right {
-    border-right: 2px solid white;
+    border-right: 2px solid #fff;
     padding: 5px;
 }
 
@@ -52,7 +52,7 @@ body {
     list-style: none;
     text-decoration: none;
     font-size: large;
-    color: white;
+    color: #fff;
     display: flex;
 
 }
@@ -75,7 +75,7 @@ body {
     content: '';
     height: 2px;
     width: 0;
-    background: white;
+    background: #fff;
     position: absolute;
     left: 0;
     bottom: -5px;
@@ -134,7 +134,7 @@ body {
 .container {
     width: 100%;
     height: 100vh;
-    background-color: white;
+    background-color: #fff;
     position: relative;
 }
 
@@ -211,7 +211,7 @@ body {
 
 #sign-up-btn:hover {
     background-color: var(--color-red);
-    color: white;
+    color: #fff;
 }
 
 /* Membership section */
@@ -249,7 +249,7 @@ h3 {
 
 .card {
     margin: 50px 30px;
-    background-color: white;
+    background-color: #fff;
     width: 300px;
     padding-bottom: 10px;
     cursor: pointer;
@@ -328,7 +328,7 @@ h3 {
     width: 100%;
     min-height: 50vh;
     display: flex;
-    background-color: #F7F7F7;
+    background-color: var(--background-color);
     text-align: center;
     justify-content: center;
 }
@@ -421,6 +421,7 @@ q {
 
 /* About Us page */
 
+/* meet the team section */
 
 #meet-the-team {
     width: 100%;
@@ -439,14 +440,14 @@ q {
     padding-top: 55px;
     margin: 10px auto;
     width: 50%;
-    padding-left: 30%;
+    text-align: center;
 }
 
 #heading-underline {
     width: 50%;
     border: 1px solid var(--color-red);
     margin: 0px auto;
-
+    text-align: center;
 }
 
 .underline {
@@ -551,7 +552,7 @@ q {
 #location-section {
     width: 100%;
     height: 100vh;
-    background-color: white;
+    background-color: #fff;
 }
 
 #left-col {
@@ -679,7 +680,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: var(--color-red);
-    color: white;
+    color: #fff;
 }
 
 /* Media Queries section */
@@ -692,6 +693,18 @@ input[type=submit]:hover {
 
     .text-container p {
         font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1051px) {
+
+    /* meet the team section */
+    .pt-container {
+        display: unset;
+    }
+
+    .pt-container h6, .pt-container p {
+        margin-left: 30px;
     }
 }
 
@@ -733,6 +746,20 @@ input[type=submit]:hover {
     }
 }
 
+@media only screen and (max-width: 845px) {
+    /* About Us section */
+
+    /* Location section */
+    .center h6 {
+        font-size: 17px;
+        /* margin-bottom: 20px; */
+    }
+    
+    .center p {
+        /* margin: 10px 30px; */
+        font-size: 14px;
+    }
+}
 
 @media only screen and (max-width: 663px) {
     #links > li {
@@ -798,8 +825,18 @@ input[type=submit]:hover {
         display: none;
     }
 
+    /* About Us section */
+
+    /* Location section */
+    .center h6 {
+        font-size: 14px;
+        /* margin-bottom: 20px; */
+    }
     
-    
+    .center p {
+        /* margin: 10px 30px; */
+        font-size: 10px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
