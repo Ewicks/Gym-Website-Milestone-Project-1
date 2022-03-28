@@ -561,7 +561,7 @@ iframe {
 }
 
 .center h6 {
-    font-size: 25px;
+    font-size: 35px;
     margin-bottom: 20px;
 }
 
@@ -573,15 +573,13 @@ iframe {
     margin-bottom: 40px;
 }
 
-
-
 .partition {
     padding: 10px;
     border-bottom: 1px solid gray;
     margin: 0px 50px;
 }
 
-/* Conact Us section */
+/* Contact Us section */
 
 #contact-us {
     width: 100%;
