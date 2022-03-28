@@ -115,6 +115,13 @@ If this section grows too long, you may want to split it off into a separate fil
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
+- I could not focus the image to the upper part of the image in the photo gallery
+- background-position didnt work
+
+![women-jogging](doc/screenshots/gallery-pic-bug.png)
+
+
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
