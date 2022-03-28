@@ -95,14 +95,6 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 - Below each row of images in the photo gallery section was a small white horizonatal gap.
 
 - After research on Stackoverflow I found a fix. Giving each image a display: block; gets rid of the unwanted gap.
@@ -112,6 +104,8 @@ If this section grows too long, you may want to split it off into a separate fil
 I visited the website on the Safari browser and some of the images would not load.
 
 ![image-bug](doc/screenshots/img-loading-bug.png)
+
+- I have used Media Queries to ensure that on small, medium and large devices the viewing of website is profesional and re-sizes certain aspects accordingly. 
 
 
 ### Validator Testing 
@@ -132,14 +126,18 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+I used GitHub pages to deploy this website. The steps are found below. 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - First, once your logged into your GitHub account, go to your repository tab.
+  - Click on the repository you are working in.
+  - Press the setting tab, then click pages tab on the left hand section.
+  - On the source section dropdown, select Master branch or Main branch. 
+  - Then click save.
+  - The page will automatically refresh when your site is successfully deployed.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://ewicks.github.io/Gym-Website-Milestone-Project-1/
+
+![Git Pages deployed site](doc/screenshots/git-pages-guide.png)
 
 
 ## Credits 
@@ -147,6 +145,12 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
+
+Content
+
+- I used a tutorial from youtube to create a hovering effect for the text in the life expearience section. The link to this video is here https://www.youtube.com/shorts/_1vEGYWaaQY
+
+
 
 ### Content 
 
