@@ -120,7 +120,11 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ![women-jogging](doc/screenshots/gallery-pic-bug.png)
 
+- Below each row of images in the photo gallery section was a small white horizonatal gap.
 
+- After research on Stackoverflow I found a fix. Giving each image a display: block; gets rid of the unwanted gap.
+
+![gap-bug](doc/screenshots/gallery-gap-bug.png)
 
 ## Deployment
 
