@@ -1,5 +1,6 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,300;1,200&family=Oswald:wght@300;500&family=Roboto:wght@300;500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -14,8 +15,8 @@
 body {
     font-family: 'Oswald', arial;
     letter-spacing: 2px;
-    font-weight: 300; 
-    
+    font-weight: 300;
+
 }
 
 /* Home background image and navbar section */
@@ -30,14 +31,13 @@ body {
     background-position: center center;
 }
 
-
 .navbar {
     width: 85%;
     margin: auto;
     padding: 35px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
     letter-spacing: 4px;
 }
 
@@ -54,7 +54,7 @@ body {
     font-size: large;
     color: white;
     display: flex;
-    
+
 }
 
 .navbar ul li {
@@ -115,11 +115,12 @@ body {
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid #009688;
-    background:rgba(0, 150, 136, .25);
+    background: rgba(0, 150, 136, .25);
     color: #fff;
     cursor: pointer;
     text-transform: uppercase;
-    transition: all 0.2s ease-in-out;;
+    transition: all 0.2s ease-in-out;
+    ;
 }
 
 #home-page-btn:hover {
@@ -199,9 +200,9 @@ body {
     background: rgba(203, 61, 0, .25);
     border: 2px solid var(--color-red);
     text-align: center;
-    margin: 20px 75px;
+    margin: 20px auto;
     border-radius: 25px;
-    font-weight: bold; 
+    font-weight: bold;
     text-transform: uppercase;
     overflow: hidden;
     cursor: pointer;
@@ -243,17 +244,16 @@ h3 {
     height: fit-content;
     width: 100%;
     justify-content: center;
-    padding: 40px;
+    padding: 0px;
 }
 
 .card {
-    margin: 30px;
-    border-radius: 10px;
+    margin: 50px 30px;
     background-color: white;
     width: 300px;
     padding-bottom: 10px;
     cursor: pointer;
-} 
+}
 
 .card:hover {
     box-shadow: 10px 10px 25px grey;
@@ -269,7 +269,7 @@ h3 {
     text-align: center;
     border-radius: 25px;
     font-weight: bold;
-    align-items: center; 
+    align-items: center;
     text-transform: uppercase;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -278,7 +278,6 @@ h3 {
 .card button:hover {
     background-color: var(--color-red);
     color: #fff;
-    
 }
 
 .header img {
@@ -346,7 +345,7 @@ h5 {
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 400;
-    
+
 }
 
 #quick-menu ul {
@@ -398,7 +397,7 @@ q {
     font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
-    
+
 }
 
 #links > li {
@@ -406,7 +405,8 @@ q {
     margin: 35px 15px;
 }
 
-#links li a, #links li a:visited {
+#links li a,
+#links li a:visited {
     text-decoration: none;
     color: gray;
 }
@@ -440,21 +440,21 @@ q {
     margin: 10px auto;
     width: 50%;
     padding-left: 30%;
- }
- 
- #heading-underline {
+}
+
+#heading-underline {
     width: 50%;
     border: 1px solid var(--color-red);
     margin: 0px auto;
-    
- }
 
- .underline {
+}
+
+.underline {
     width: 95%;
     border: 1px solid var(--color-red);
     margin-left: 30px;
- }
-     
+}
+
 
 #pt-1 {
     width: 100%;
@@ -515,7 +515,7 @@ q {
 /* Photo Gallery section */
 
 #photo-gallery {
-    min-height: 150vh;
+    min-height: 139vh;
     width: 100%;
 }
 
@@ -536,15 +536,17 @@ q {
 }
 
 #photos {
-    column-count: 3; 
+    column-count: 3;
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
+
+/* Location section */
 
 #location-section {
     width: 100%;
@@ -581,8 +583,14 @@ iframe {
 }
 
 .center p {
-    margin: 0px 30px;
+    margin: 10px 30px;
 }
+
+#location-subheading {
+    margin-bottom: 40px;
+}
+
+
 
 .partition {
     padding: 10px;
@@ -600,6 +608,7 @@ iframe {
 #img-section img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 #form-section {
@@ -614,8 +623,6 @@ iframe {
     height: 100vh;
     float: right;
 }
-
-
 
 #position-text {
     text-align: center;
@@ -641,23 +648,24 @@ iframe {
     border-radius: 20px;
 }
 
-input[type=text], textarea {
+input[type=text],
+textarea {
     width: 90%;
-    padding: 12px; 
-    border: 1px solid gray; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
     margin-left: 20px;
-    resize: vertical 
-  }
+    resize: vertical
+}
 
-  label {
+label {
     margin-left: 20px;
-  }
+}
 
-  input[type=submit] {
+input[type=submit] {
     background-color: var(--color-red);
     color: black;
     padding: 12px 35px;
@@ -667,26 +675,29 @@ input[type=text], textarea {
     cursor: pointer;
     margin-left: 20px;
     transition: all 0.2s ease-in-out;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     background-color: var(--color-red);
     color: white;
-  }
-  
+}
 
+/* Media Queries section */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1120px) {
+    /* Life-expearience section */
     .text-container h2 {
         font-size: 30px;
     }
+
     .text-container p {
-        font-size: 16px;
-    } 
+        font-size: 17px;
+    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 
+    /* Navbar and logo section */
     .navbar {
         flex-wrap: wrap;
         align-items: center;
@@ -698,15 +709,74 @@ input[type=text], textarea {
         justify-content: center;
         margin-bottom: 10px;
     }
+
     .border-right {
         padding: 5px;
         border: none;
     }
 
+    /* Life-expearience section */
+    .text-container h2 {
+        font-size: 26px;
+    }
+
+    .text-container p {
+        font-size: 15px;
+    }
+
+    /* Membership section */
+    .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0;
+    }
+}
+
+
+@media only screen and (max-width: 663px) {
+    #links > li {
+        display: inline-block;
+        margin: 35px 5px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    /* Navbar and logo section */
+    .navbar {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .border-right {
+        padding: 5px;
+        border: none;
+    }
+
+    /* headings for home page  */
     .content h1 {
         font-size: 50px;
     }
 
+    /* Life-expearience section */
+    .text-container h2 {
+        font-size: 30px;
+    }
+
+    .text-container p {
+        font-size: 14px;
+    }
+
+    /* Membership section */
     .grid-container {
         display: flex;
         flex-direction: column;
@@ -718,6 +788,18 @@ input[type=text], textarea {
     .pt-container {
         display: unset;
     }
+
+    /* Footer section */
+    #links li a {
+        font-size: 40px;
+    }
+
+    #motivational-quote {
+        display: none;
+    }
+
+    
+    
 }
 
 @media only screen and (max-width: 400px) {
@@ -730,11 +812,13 @@ input[type=text], textarea {
     iframe {
         display: none;
     }
+
     .partition {
         display: unset;
     }
+
     .center {
         margin: 0px 50px;
-    
+
     }
 }
