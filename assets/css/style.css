@@ -304,7 +304,7 @@ h3 {
 
 #footer {
     width: 100%;
-    min-height: 50vh;
+    min-height: 50%;
     display: flex;
     background-color: var(--background-color);
     text-align: center;
@@ -525,7 +525,7 @@ q {
 
 #location-section {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background-color: #fff;
 }
 
@@ -830,13 +830,13 @@ input[type=submit]:hover {
 
     /* Location section */
     .center h6 {
-        font-size: 14px;
+        font-size: 15px;
         /* margin-bottom: 20px; */
     }
     
     .center p {
         /* margin: 10px 30px; */
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
@@ -925,29 +925,38 @@ input[type=submit]:hover {
     }
 
     .partition {
-        display: none;
+        display: unset;
         margin: 0;
-        padding: 0;
-        
+        padding: 0; 
     }
 
-
-
-
-
-
-    /* Location section */
+    .center p {
+        margin: 0px;
+        padding: 20px;
+    }
 
     iframe {
         display: none;
     }
 
-    .partition {
-        display: unset;
-    }
-
     .center {
-        margin: 0px 50px;
-
+        margin: 20px 0px;
     }
+
+    /* Contact Us section */
+    #form-section {
+        width: 100%;
+        height: 100vh;
+        float: left;
+        background-color: var(--background-color)
+    }
+
+
+    #form-container {
+        width: 350px;
+        height: 500px;
+        margin: 10px auto;
+        border-radius: 20px;
+    }
+
 }
