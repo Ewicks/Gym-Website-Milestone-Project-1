@@ -525,7 +525,7 @@ q {
 
 #location-section {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #fff;
 }
 
@@ -740,8 +740,8 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 845px) {
-    /* About Us section */
 
+    /* About Us section */
     /* Location section */
     .center h6 {
         font-size: 17px;
@@ -898,6 +898,44 @@ input[type=submit]:hover {
     }
 
     /* About Us section */
+
+    /* Meet the team section */
+    #meet-the-team-heading h5 {
+        font-size: 30px;
+    }
+
+    #pt-1 {
+        margin-top: 30px;
+    }
+
+    /* Photo Gallery section */
+    #gallery-heading h6 {
+        margin-top: 30px;
+        font-size: 35px;
+    }
+
+    #photos {
+        column-count: 1;
+    }
+
+   /* Location section */
+    #left-col {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .partition {
+        display: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+
+
+
+
+
     /* Location section */
 
     iframe {
