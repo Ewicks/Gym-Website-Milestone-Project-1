@@ -70,28 +70,34 @@ intuitively  designed to make it easy for the user to navigate.
 - __Meet-the-team section__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
+  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
   - This section shows pictures of the trainers and a description of what they are like and why they love their job.
 
-  - 
-
 ![Meet the Team](doc/screenshots/meet-the-team.png)
 
-- __The Sign Up Page__
+- __Photo gallery section__ 
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will encourage the user to visit and follow the gym's social media to help grow the brand. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+  - It contains many pictures of people working hard and having fun. 
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+![Photo gallery](doc/screenshots/photo-gallery.png)
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- __Location section__ 
+
+  - This page contains where the gym is located on google maps giving a visual representation as well as a written representation.
+  Which will help the user pin point exactly where the gym is.
+
+  - The opening times are clearly layed out, which is the rest of the important information the user needs to see about the location. 
+
+
+![Location](doc/screenshots/location-section.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+- Gym facilites section, which gives a tour of the gym. And a bit about what they can expect.
 
 ## Testing 
 
@@ -101,11 +107,12 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ![gap-bug](doc/screenshots/gallery-gap-bug.png)
 
-I visited the website on the Safari browser and some of the images would not load.
+I visited the website on the GitHub pages link and some of the images would not load.
+
+- After some research I was able to fix the issue by adjusting the src tag on the images. I removed the forward slash at the beginning. 
 
 ![image-bug](doc/screenshots/img-loading-bug.png)
 
-- I have used Media Queries to ensure that on small, medium and large devices the viewing of website is profesional and re-sizes certain aspects accordingly. 
 
 
 ### Validator Testing 
@@ -117,10 +124,8 @@ I visited the website on the Safari browser and some of the images would not loa
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
-
-- I could not focus the image to the upper part of the image in the photo gallery
-- background-position didnt work
+- I could not focus the image to the upper part of the image in the photo gallery.
+- The background-position property didn't work.
 
 ![women-jogging](doc/screenshots/gallery-pic-bug.png)
 
@@ -146,39 +151,18 @@ In this section you need to reference where you got your content, media and extr
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
-Content
-
-- I used a tutorial from youtube to create a hovering effect for the text in the life expearience section. The link to this video is here https://www.youtube.com/shorts/_1vEGYWaaQY
-
-
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- I used the Love Running Project to guide me through my project. 
+
+- I used the design idea of creating a vertical line between each navbar element from the repository [here](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/index.html).
+
+- I used a tutorial from youtube to create a hovering effect for the text in the life expearience section. The link to this video is [here](https://www.youtube.com/shorts/_1vEGYWaaQY).
+
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- Some of the photos in the website was from a website called [pexels](https://www.pexels.com/search/fitness/)
 
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+ 

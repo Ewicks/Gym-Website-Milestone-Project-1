@@ -619,6 +619,7 @@ iframe {
 
 #position-text p {
     color: gray;
+    font-size: 20px;
 }
 
 input[type=text],
@@ -944,19 +945,14 @@ input[type=submit]:hover {
     }
 
     /* Contact Us section */
-    #form-section {
-        width: 100%;
-        height: 100vh;
-        float: left;
-        background-color: var(--background-color)
-    }
-
-
+    
     #form-container {
         width: 350px;
         height: 500px;
         margin: 10px auto;
         border-radius: 20px;
     }
+
+
 
 }
