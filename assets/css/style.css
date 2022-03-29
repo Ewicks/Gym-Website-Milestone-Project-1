@@ -144,7 +144,7 @@ body {
 .left-container {
     width: 50%;
     height: 100%;
-    background-image: url(/assets/images/abs.png);
+    background-image: url(../assets/images/abs.png);
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: contain;
