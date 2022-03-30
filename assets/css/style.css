@@ -275,12 +275,13 @@ h3 {
     display: flex;
     background-color: var(--background-color);
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 30px;
 }
 
 #quick-menu {
     width: 33.33%;
-    height: 100%;
 }
 
 h5 {
@@ -311,7 +312,6 @@ h5 {
 
 #motivational-quote {
     width: 33.33%;
-    height: 100%;
 }
 
 q {
@@ -320,16 +320,13 @@ q {
 
 #quote {
     text-align: center;
-    justify-content: center;
-    margin-left: 20px;
-    padding: 30px;
     color: gray;
     font-size: 25px;
+    margin-top: 35px;
 }
 
 #social-media-links {
     width: 33.33%;
-    height: 100%;
 }
 
 #links {
