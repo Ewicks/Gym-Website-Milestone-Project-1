@@ -428,24 +428,17 @@ q {
     font-size: 25px;
 }
 
-
-#test10 p {
-    float: left;
-}
-
-
 /* Photo Gallery section */
 
 #photo-gallery {
-    min-height: 139vh;
+    /* min-height: 139vh; */
     width: 100%;
 }
 
 #gallery-heading {
     background-color: var(--background-color);
     width: 100%;
-    height: 25vh;
-    position: relative;
+    padding-bottom: 4.5%;
 }
 
 #gallery-heading h6 {
