@@ -68,22 +68,6 @@ body {
     font-size: 20px;
 }
 
-
-.navbar ul li::after {
-    content: '';
-    height: 2px;
-    width: 0;
-    background: #fff;
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    transition: 0.5s;
-}
-
-.navbar ul li:hover::after {
-    width: 90%;
-}
-
 .content {
     width: 100%;
     position: absolute;
