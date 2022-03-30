@@ -29,6 +29,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
+    
 }
 
 .navbar {
@@ -53,13 +54,11 @@ body {
     text-decoration: none;
     font-size: large;
     color: #fff;
-   
 }
 
 .navbar ul li {
     list-style: none;
     display: inline-block;
-    /* position: relative; */
 }
 
 .navbar ul li a {
@@ -76,6 +75,7 @@ body {
     transform: translateY(-50%);
     text-align: center;
     color: #fff;
+    /* margin-top: 40%; */
 }
 
 .content h1 {
@@ -120,10 +120,12 @@ body {
 .container {
     width: 100%;
     background-color: #fff;
+    display: flex;
 }
 
 .left-container {
     width: 50%;
+    display: flex;
 }
 
 /* .left-container img {
@@ -133,6 +135,7 @@ body {
 .right-container {
     width: 50%;
     background-color: #F7F7F7;
+    
 }
 
 .text-container {
