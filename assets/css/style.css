@@ -191,9 +191,7 @@ body {
 #membership {
     background-color: var(--background-color);
     width: 100%;
-    /* min-height: 100vh; */
     text-align: center;
-    /* float: left; */
 }
 
 h3 {
@@ -213,7 +211,6 @@ h3 {
 
 .grid-container {
     display: flex;
-    /* height: fit-content; */
     width: 100%;
     justify-content: center;
     padding: 0px;
@@ -275,7 +272,6 @@ h3 {
 
 #footer {
     width: 100%;
-    /* min-height: 50%; */
     display: flex;
     background-color: var(--background-color);
     text-align: center;
@@ -369,7 +365,6 @@ q {
 
 #meet-the-team {
     width: 100%;
-    min-height: 125vh;
 }
 
 #meet-the-team-heading {
