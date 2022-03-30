@@ -28,8 +28,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    position: relative;
-    
 }
 
 .navbar {
@@ -277,11 +275,11 @@ h3 {
 
 #footer {
     width: 100%;
-    min-height: 50%;
+    /* min-height: 50%; */
     display: flex;
     background-color: var(--background-color);
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #quick-menu {
