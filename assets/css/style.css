@@ -369,10 +369,9 @@ q {
 
 #meet-the-team-heading {
     width: 100%;
-    height: 25vh;
-    margin-right: 25px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 55px;
 }
 
 #meet-the-team-heading h5 {
