@@ -126,7 +126,7 @@ body {
 }
 
 #home-page-btn:hover {
-    border: none;
+    border: 2px solid transparent;
     background-color: #009688;
 }
 
@@ -137,35 +137,35 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: #fff;
-    position: relative;
+    /* position: relative; */
 }
 
 .left-container {
     width: 50%;
     height: 100%;
-    background-image: url(../assets/images/abs.png);
+    /* background-image: url(../images/abs.png);
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: contain;
-    background-position: 70% 70%;
+    background-position: 70% 70%; */
     float: left;
 }
 
 .right-container {
     width: 50%;
-    height: 100%;
+    /* height: 100%; */
     background-color: #F7F7F7;
     float: right;
     box-sizing: border-box;
 }
 
 .text-container {
-    width: 50%;
+    /* width: 50%;
     height: 50%;
     margin-top: 200px;
     position: absolute;
     top: 5%;
-    transform: translateY(-50%);
+    transform: translateY(-50%); */
     text-align: center;
 }
 
@@ -220,9 +220,9 @@ body {
 #membership {
     background-color: var(--background-color);
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     text-align: center;
-    position: relative;
+    float: left;
 }
 
 h3 {
@@ -242,7 +242,7 @@ h3 {
 
 .grid-container {
     display: flex;
-    height: fit-content;
+    /* height: fit-content; */
     width: 100%;
     justify-content: center;
     padding: 0px;
@@ -574,6 +574,7 @@ iframe {
 /* Contact Us section */
 
 #contact-us {
+    background-color: var(--background-color);
     width: 100%;
     min-height: 100vh;
 }
@@ -586,7 +587,7 @@ iframe {
 
 #form-section {
     width: 60%;
-    height: 100vh;
+    /* height: 100vh; */
     float: left;
     background-color: var(--background-color)
 }
@@ -604,7 +605,7 @@ iframe {
 
 #form-container {
     width: 500px;
-    height: 500px;
+    /* height: 500px; */
     background-color: var(--background-color);
     margin: 10px auto;
     border-radius: 20px;
@@ -839,6 +840,14 @@ input[type=submit]:hover {
         /* margin: 10px 30px; */
         font-size: 12px;
     }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+
+
+
 }
 
 
