@@ -28,6 +28,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    position: relative;
 }
 
 .navbar {
@@ -106,7 +107,6 @@ body {
     cursor: pointer;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
-    ;
 }
 
 #home-page-btn:hover {
@@ -120,17 +120,15 @@ body {
 .container {
     width: 100%;
     background-color: #fff;
-    display: flex;
 }
 
 .left-container {
     width: 50%;
-    display: flex;
 }
 
-.left-container img {
+/* .left-container img {
     position: 70% 70%;
-}
+} */
 
 .right-container {
     width: 50%;
