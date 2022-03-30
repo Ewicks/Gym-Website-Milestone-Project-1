@@ -135,7 +135,6 @@ body {
 
 .container {
     width: 100%;
-    /* min-height: 100vh; */
     background-color: #fff;
     display: flex;
 }
@@ -143,8 +142,6 @@ body {
 .left-container {
     width: 50%;
     display: flex;
-    /* height: 100%; */
-    /* float: left; */
 }
 
 .left-container img {
@@ -154,17 +151,9 @@ body {
 .right-container {
     width: 50%;
     background-color: #F7F7F7;
-    /* float: right; */
-    /* box-sizing: border-box; */
 }
 
 .text-container {
-    /* width: 50%;
-    height: 50%;
-    margin-top: 200px;
-    position: absolute;
-    top: 5%;
-    transform: translateY(-50%); */
     text-align: center;
 }
 
@@ -620,6 +609,10 @@ iframe {
 #position-text p {
     color: gray;
     font-size: 20px;
+}
+
+textarea {
+    height: 200px;
 }
 
 input[type=text],
