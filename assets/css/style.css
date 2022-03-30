@@ -135,28 +135,27 @@ body {
 
 .container {
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-color: #fff;
-    /* position: relative; */
+    display: flex;
 }
 
 .left-container {
     width: 50%;
-    height: 100%;
-    /* background-image: url(../images/abs.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-fit: contain;
-    background-position: 70% 70%; */
-    float: left;
+    display: flex;
+    /* height: 100%; */
+    /* float: left; */
+}
+
+.left-container img {
+    position: 70% 70%;
 }
 
 .right-container {
     width: 50%;
-    /* height: 100%; */
     background-color: #F7F7F7;
-    float: right;
-    box-sizing: border-box;
+    /* float: right; */
+    /* box-sizing: border-box; */
 }
 
 .text-container {
@@ -222,7 +221,7 @@ body {
     width: 100%;
     /* min-height: 100vh; */
     text-align: center;
-    float: left;
+    /* float: left; */
 }
 
 h3 {
@@ -854,7 +853,6 @@ input[type=submit]:hover {
 /* Mobile Devices */
 @media only screen and (max-width: 400px) {
 
-
     /* Life Expearience */
     .left-container {
         display: none;
@@ -862,23 +860,15 @@ input[type=submit]:hover {
 
     .right-container {
         width: 100%;
-        height: 100%;
     }
 
     .text-container {
         width: 100%;
-        height: 100vh;
     }
 
     .text-container {
         width: 100%;
-        height: 100%;
-        margin-top: 200px;
-        position: absolute;
-        top: 30%;
-        transform: translateY(-50%);
     }
-
 
     /* Footer section */
     #links li a {
