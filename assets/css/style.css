@@ -513,7 +513,7 @@ iframe {
 #contact-us {
     background-color: var(--background-color);
     width: 100%;
-    min-height: 100vh;
+    display: flex;
 }
 
 #img-section img {
@@ -524,15 +524,11 @@ iframe {
 
 #form-section {
     width: 60%;
-    /* height: 100vh; */
-    float: left;
     background-color: var(--background-color)
 }
 
 #img-section {
     width: 40%;
-    height: 100vh;
-    float: right;
 }
 
 #position-text {
@@ -542,7 +538,6 @@ iframe {
 
 #form-container {
     width: 500px;
-    /* height: 500px; */
     background-color: var(--background-color);
     margin: 10px auto;
     border-radius: 20px;
