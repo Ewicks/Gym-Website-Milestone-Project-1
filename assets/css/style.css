@@ -125,7 +125,7 @@ body {
     display: flex;
 }
 
-#testing {
+.left-container img {
     object-position: 70% 100%;
     width: 100%;
     height: 100%;
@@ -465,6 +465,7 @@ q {
     width: 100%;
     background-color: #fff;
     display: flex;
+    margin-top: 30px;
 }
 
 #left-col {
@@ -480,24 +481,26 @@ iframe {
     height: 100%;
 }
 
-
-.center {
+#left-col {
     text-align: center;
-    padding: 10px 0;
 }
 
-.center h6 {
-    font-size: 35px;
-    margin-bottom: 20px;
+/* .center {
+    text-align: center;
+} */
+
+#left-col h6 {
+    font-size: 30px;
 }
 
-.center p {
+#left-col p {
     margin: 10px 30px;
+    font-size: 20px;
 }
 
-#location-subheading {
+/* #location-subheading {
     margin-bottom: 40px;
-}
+} */
 
 .partition {
     padding: 10px;
@@ -678,18 +681,17 @@ input[type=submit]:hover {
 
     /* About Us section */
     /* Location section */
-    .center h6 {
-        font-size: 17px;
-        /* margin-bottom: 20px; */
+    #left-col h6 {
+        font-size: 25px;
     }
     
-    .center p {
-        /* margin: 10px 30px; */
-        font-size: 14px;
+    #left-col p {
+        font-size: 15px;
     }
 }
 
 @media only screen and (max-width: 663px) {
+    /* Footer section*/
     #links > li {
         display: inline-block;
         margin: 35px 5px;
@@ -699,25 +701,11 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 600px) {
 
-
     /* Navbar and logo section */
     .navbar {
         flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
     }
-
-    .logo {
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 10px;
-    }
-
-    .border-right {
-        padding: 5px;
-        border: none;
-    }
-
+    
     /* headings for home page  */
     .content h1 {
         font-size: 50px;
@@ -757,6 +745,7 @@ input[type=submit]:hover {
     #quick-menu ul li a {
         font-size: 20px;
     }
+
     #footer {
       justify-content: space-evenly;
     }
@@ -764,13 +753,19 @@ input[type=submit]:hover {
     /* About Us section */
 
     /* Location section */
+
+    #left-col {
+        width: 100%;
+    }
+
+    #right-col {
+        display: none;
+    }
     .center h6 {
         font-size: 15px;
-        /* margin-bottom: 20px; */
     }
     
     .center p {
-        /* margin: 10px 30px; */
         font-size: 12px;
     }
 }
@@ -845,7 +840,6 @@ input[type=submit]:hover {
 
    /* Location section */
     #left-col {
-        height: 100vh;
         width: 100%;
     }
 
