@@ -533,7 +533,7 @@ iframe {
 
 #position-text {
     text-align: center;
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
 #form-container {
@@ -671,10 +671,7 @@ input[type=submit]:hover {
 
     #form-section {
         width: 100%;
-        height: 100vh;
     }
-
-    
 }
 
 @media only screen and (max-width: 845px) {
@@ -761,16 +758,17 @@ input[type=submit]:hover {
     #right-col {
         display: none;
     }
-    .center h6 {
+    /* .center h6 {
         font-size: 15px;
     }
     
     .center p {
         font-size: 12px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 500px) {
+
     /* Life Expearience */
     .left-container {
         display: none;
@@ -779,6 +777,14 @@ input[type=submit]:hover {
     .right-container {
         width: 100%;
     }
+
+    /* Contact Us */
+    #form-container {
+        width: 380px;
+        margin: 40px auto;
+    }
+
+    
 }
 
 
@@ -866,11 +872,6 @@ input[type=submit]:hover {
     
     #form-container {
         width: 350px;
-        height: 500px;
         margin: 10px auto;
-        border-radius: 20px;
     }
-
-
-
 }
