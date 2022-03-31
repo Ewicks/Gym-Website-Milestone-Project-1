@@ -278,7 +278,6 @@ h3 {
     display: flex;
     background-color: var(--background-color);
     text-align: center;
-    justify-content: space-between;
     padding-top: 30px;
 }
 
@@ -778,16 +777,6 @@ input[type=submit]:hover {
 
 
 @media only screen and (max-width: 500px) {
-
-
-
-
-}
-
-
-/* Mobile Devices */
-@media only screen and (max-width: 400px) {
-
     /* Life Expearience */
     .left-container {
         display: none;
@@ -796,12 +785,14 @@ input[type=submit]:hover {
     .right-container {
         width: 100%;
     }
+}
 
-    .text-container {
-        width: 100%;
-    }
 
-    .text-container {
+/* Mobile Devices */
+@media only screen and (max-width: 400px) {
+
+    /* Life Expearience */
+    .right-container {
         width: 100%;
     }
 
