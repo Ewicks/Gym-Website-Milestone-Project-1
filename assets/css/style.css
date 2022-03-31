@@ -459,6 +459,10 @@ q {
     display: block;
 }
 
+#testing {
+    object-position: 100% 30%;
+}
+
 /* Location section */
 
 #location-section {
