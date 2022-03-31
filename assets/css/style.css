@@ -22,10 +22,10 @@ body {
 
 .banner {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.3)), url(../images/background-img.jpeg);
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -73,7 +73,6 @@ body {
     transform: translateY(-50%);
     text-align: center;
     color: #fff;
-    /* margin-top: 40%; */
 }
 
 .content h1 {
@@ -126,9 +125,9 @@ body {
     display: flex;
 }
 
-/* .left-container img {
-    position: 70% 70%;
-} */
+.left-container img {
+    position: right;
+}
 
 .right-container {
     width: 50%;
