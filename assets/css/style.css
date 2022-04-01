@@ -46,7 +46,7 @@ body {
 }
 
 .logo {
-    width: 220px;
+    width: 257px;
     cursor: pointer;
     list-style: none;
     text-decoration: none;
@@ -633,8 +633,11 @@ input[type=submit]:hover {
     /* Navbar and logo section */
     .navbar {
         flex-wrap: wrap;
-        align-items: center;
         justify-content: center;
+    }
+
+    .logo h1 {
+        text-align: center;
     }
 
     .logo {
