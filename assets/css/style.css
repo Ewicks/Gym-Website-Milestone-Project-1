@@ -512,6 +512,29 @@ iframe {
     margin: 0px 50px;
 }
 
+/* Gym Facilities section */
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 900px;
+    align-items: center;
+    align-content: flex-end;
+}
+
+.flexbox-container h1{
+    /* margin-bottom: 50px; */
+    font-size: 50px;
+}
+    
+.flexbox-container iframe {
+    width: 400px;
+    height: 400px;
+}
+
+
+
 /* Contact Us section */
 
 #contact-us {
