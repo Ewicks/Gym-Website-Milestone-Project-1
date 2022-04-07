@@ -489,10 +489,6 @@ iframe {
     text-align: center;
 }
 
-/* .center {
-    text-align: center;
-} */
-
 #left-col h6 {
     font-size: 30px;
 }
@@ -500,11 +496,7 @@ iframe {
 #left-col p {
     margin: 10px 30px;
     font-size: 20px;
-}
-
-/* #location-subheading {
-    margin-bottom: 40px;
-} */
+} 
 
 .partition {
     padding: 10px;
@@ -518,7 +510,6 @@ iframe {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 900px;
     align-items: center;
     align-content: flex-end;
     gap: 50px;
@@ -529,11 +520,9 @@ iframe {
 }
     
 .flexbox-container iframe {
-    width: 400px;
-    height: 400px;
+    width: 80%;
+    height: 500px;
 }
-
-
 
 /* Contact Us section */
 
