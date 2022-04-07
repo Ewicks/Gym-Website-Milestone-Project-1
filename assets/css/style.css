@@ -521,10 +521,10 @@ iframe {
     height: 900px;
     align-items: center;
     align-content: flex-end;
+    gap: 50px;
 }
 
 .flexbox-container h1{
-    /* margin-bottom: 50px; */
     font-size: 50px;
 }
     
