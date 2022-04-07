@@ -511,8 +511,8 @@ iframe {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    align-content: flex-end;
     gap: 50px;
+
 }
 
 .flexbox-container h1{
@@ -524,8 +524,8 @@ iframe {
     height: 500px;
 }
 
-.details-of-facilities h2 {
-    margin-bottom: 30px;
+.details-of-facilities h2, .details-of-facilities2 h2{
+    margin-bottom: 10px;
 }
 
 .details-of-facilities p {
@@ -533,7 +533,19 @@ iframe {
 }
 
 .details-of-facilities {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.details-of-facilities2 {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 /* Contact Us section */
