@@ -524,6 +524,18 @@ iframe {
     height: 500px;
 }
 
+.details-of-facilities h2 {
+    margin-bottom: 30px;
+}
+
+.details-of-facilities p {
+    line-height: 50px;
+}
+
+.details-of-facilities {
+    margin-bottom: 30px;
+}
+
 /* Contact Us section */
 
 #contact-us {
