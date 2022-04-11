@@ -744,6 +744,17 @@ input[type=submit]:hover {
     }
 }
 
+@media only screen and (max-width: 692px) {
+    /* Gym Facilities */
+    .flexbox-container h1{
+        font-size: 40px;
+    }
+
+    .flexbox-container {
+        margin-bottom: 50px;
+    }
+}
+
 @media only screen and (max-width: 663px) {
     /* Footer section*/
     #links > li {
@@ -813,6 +824,15 @@ input[type=submit]:hover {
 
     #right-col {
         display: none;
+    }
+
+    /* Gym Facilites */
+    .flexbox-container {
+        margin-bottom: 60px;
+    }
+
+    .flexbox-container h1{
+        font-size: 30px;
     }
 }
 
