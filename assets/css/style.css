@@ -554,14 +554,13 @@ iframe {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    /* margin-left: 60%; */
     margin-left: 10%;
-
 }
 
-/* .details-of-facilities2 h2 {
-    margin-left: 60%;
-} */
+.testt {
+    align-items: flex-start;
+    justify-self: flex-start;
+}
 
 /* Contact Us section */
 
