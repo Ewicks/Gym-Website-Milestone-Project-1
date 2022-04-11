@@ -512,11 +512,11 @@ iframe {
     flex-direction: column;
     align-items: center;
     gap: 50px;
-
 }
 
 .flexbox-container h1{
     font-size: 50px;
+    margin-top: 30px;
 }
     
 .flexbox-container iframe {
@@ -528,8 +528,14 @@ iframe {
     margin-bottom: 10px;
 }
 
-.details-of-facilities p {
-    line-height: 50px;
+.details-of-facilities p, .details-of-facilities2 p {
+    line-height: 40px;
+}
+
+.facilities-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .details-of-facilities {
@@ -537,7 +543,9 @@ iframe {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    width: 80%;
+    height: 500px;
 }
 
 .details-of-facilities2 {
@@ -545,8 +553,15 @@ iframe {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
+    /* margin-left: 60%; */
+    margin-left: 10%;
+
 }
+
+/* .details-of-facilities2 h2 {
+    margin-left: 60%;
+} */
 
 /* Contact Us section */
 
