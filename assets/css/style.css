@@ -548,18 +548,8 @@ iframe {
     height: 500px;
 }
 
-.details-of-facilities2 {
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 10%;
-}
-
-.testt {
-    align-items: flex-start;
-    justify-self: flex-start;
+.details-of-facilities b {
+    font-size: 25px;
 }
 
 /* Contact Us section */
