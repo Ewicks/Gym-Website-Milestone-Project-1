@@ -165,6 +165,8 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
+- Link to the google map [click here](https://www.google.com/maps/place/PureGym+London+Piccadilly/@51.512871,-0.123031,13z/data=!4m5!3m4!1s0x0:0x17999a4de3026a30!8m2!3d51.5084911!4d-0.133374?hl=en)
+
 ### Media
 
 - The below photos are from a website called [pexels](https://www.pexels.com/search/fitness/)
