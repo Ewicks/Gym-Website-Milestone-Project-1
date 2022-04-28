@@ -23,3 +23,27 @@
 
 ### Brower Compatibility 
 
+## Chrome
+
+I have tested my full website on Chrome and I can say that there is no compatibility issues that I can see. 
+
+
+- Here is the home page in a chrome brower while in tablet mode 
+![home page](doc/screenshots/chrome-tablet-compatibility.png)
+
+- Here is the photo gallery in chrome while in mobile mode
+![photo gallery](doc/screenshots/chrome-mobile-compatibility.png)
+
+## Safari
+
+I have tested my wesbtite on Safari and I cannot see any comptibility issues. 
+
+- This is the about us page in desktop mode
+![about us](doc/screenshots/safari-compatibility-desktop.png)
+
+- This is the meet the team section in tablet mode
+![meet the team](doc/screenshots/safari-meet-the-team.png)
+
+
+### Responsiveness
+
