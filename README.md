@@ -172,4 +172,26 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 - Some of the photos in the website was from a website called [pexels](https://www.pexels.com/search/fitness/)
 
- 
+- I got the below images from the [this](https://www.surreysportspark.co.uk/gym-and-classes/meet-the-teams/personal-trainers/) website.
+
+![alice](assets/images/alice-pt.jpeg)
+![james](assets/images/james-pt.jpeg)
+![dan](assets/images/dan-pt.jpeg)
+
+
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+
+
