@@ -146,6 +146,15 @@ The live link can be found here - https://ewicks.github.io/Gym-Website-Milestone
 
 ![Git Pages deployed site](doc/screenshots/git-pages-guide.png)
 
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/Ewicks/Gym-Website-Milestone-Project-1.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ewicks/Gym-Website-Milestone-Project-1)
 
 ## Credits 
 

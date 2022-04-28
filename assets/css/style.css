@@ -401,7 +401,7 @@ q {
 }
 
 .surename {
-    color: var(--color-red)
+    color: var(--color-red);
 }
 
 #meet-the-team img {
