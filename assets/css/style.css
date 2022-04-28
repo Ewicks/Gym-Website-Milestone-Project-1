@@ -567,7 +567,7 @@ iframe {
 
 #form-section {
     width: 60%;
-    background-color: var(--background-color)
+    background-color: var(--background-color);
 }
 
 #img-section {
@@ -612,7 +612,7 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     margin-left: 20px;
-    resize: vertical
+    resize: vertical;
 }
 
 label {
