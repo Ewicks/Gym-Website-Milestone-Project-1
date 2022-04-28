@@ -179,9 +179,27 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 ![dan](assets/images/dan-pt.jpeg)
 
 
-![]()
-![]()
-![]()
+- The below picure is from [this](https://www.msnbc.com/know-your-value/these-7-habits-can-save-your-heart-n971011)
+website.
+
+![treadmill](assets/images/treadmill.jpeg)
+
+- The below picure is from [this](https://holisminmedicine.quora.comWhat-is-the-best-way-to-maintain-sugar-at-the-optimal-levels-even-during-exercises-and-physical-work) website.
+
+![bicep curl](assets/images/bicep-curl.jpeg)
+
+- The below picure is from [this](https://holisminmedicine.quora.comWhat-is-the-best-way-to-maintain-sugar-at-the-optimal-levels-even-during-exercises-and-physical-work) website.
+
+![bicep curl](assets/images/bicep-curl.jpeg)
+
+- The below picure is from [this](https://holisminmedicine.quora.comWhat-is-the-best-way-to-maintain-sugar-at-the-optimal-levels-even-during-exercises-and-physical-work) website.
+
+![bicep curl](assets/images/bicep-curl.jpeg)
+
+- The below picure is from [this](https://holisminmedicine.quora.comWhat-is-the-best-way-to-maintain-sugar-at-the-optimal-levels-even-during-exercises-and-physical-work) website.
+
+![bicep curl](assets/images/bicep-curl.jpeg)
+
 ![]()
 ![]()
 ![]()
