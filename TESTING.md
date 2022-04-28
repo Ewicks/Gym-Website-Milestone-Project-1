@@ -1,5 +1,3 @@
-
-
 ### W3C HTML Validator
 
 ## Home Page
@@ -21,3 +19,7 @@
 ## CSS Page
 
 ![CSS](doc/screenshots/css-validation.png)
+
+
+### Brower Compatibility 
+

@@ -115,9 +115,13 @@ I visited the website on the GitHub pages link and some of the images would not 
 
 
 
-### Validator Testing 
+### Testing 
 
-You can find all the screenshots of each page being passed thorugh the code validator [here](TESTING.md)
+The link to the full testing page, which includes validator testing, brower compatibility and responive check [click here](TESTING.md). 
+
+### Validator Testing
+
+You can find all the screenshots of each page being passed thorugh the code validator [here](TESTING.md).
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https://ewicks.github.io/Gym-Website-Milestone-Project-1/index.html)
