@@ -6,19 +6,19 @@
 
 ## About Us Page
 
-![About Us](doc/screenshots/code-validator-about-us.png)
+![hbout Us](doc/screenshots/code-validator-about-us.png)
 
 ## Gym Facilities Page
 
-![Gym Facilities](doc/screenshots/code-validator-gym-facilities.png)
+![gym Facilities](doc/screenshots/code-validator-gym-facilities.png)
 
 ## Contact us Page
 
-![Contact Us](doc/screenshots/code-validator-contact-us.png)
+![contact Us](doc/screenshots/code-validator-contact-us.png)
 
 ## CSS Page
 
-![CSS](doc/screenshots/css-validation.png)
+![css](doc/screenshots/css-validation.png)
 
 
 ## bugs
