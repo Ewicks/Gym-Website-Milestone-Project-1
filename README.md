@@ -2,7 +2,7 @@
 
 # Fitness Culture
 
-Fitness Culture is a gym located in London that needs more customers to continue to increase monthly profits. I have created a website to help advertise Fitness Culture's gym which will help spread awareness and increase the number of monthly memberships. People that visit the website will get an detailed to insight to what they can expect if they join. The website will provide information such as; monthly membership prices, a motivational story and quote, location, meet the team section and how visitors can get in touch with Fitness Culture via a contact section.
+Fitness Culture is a gym located in London that needs more customers to continue to increase monthly profits. I have created a website to help advertise Fitness Culture's gym, which will help spread awareness and increase the number of monthly memberships. People that visit the website will get a detailed insight to what they can expect if they join. The website will provide information such as; monthly membership prices, a motivational story and quote, location, meet the team section and how visitors can get in touch with Fitness Culture via a contact section.
 
 ![Website visuals](doc/screenshots/website-visuals.png)
 
