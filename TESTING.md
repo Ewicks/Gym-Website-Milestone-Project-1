@@ -47,3 +47,24 @@ I have tested my wesbtite on Safari and I cannot see any comptibility issues.
 
 ### Responsiveness
 
+This website has been created for all devices that have a width larger than 375px.
+
+## Desktop
+
+- Here are two screenshots that are in desktop mode.
+
+![contact us](doc/screenshots/contact-us-desktop.png)
+![about us](doc/screenshots/safari-compatibility-desktop.png)
+
+## Tablet
+
+- Here are two screenshots that are in tablet mode.
+![meet the team](doc/screenshots/safari-meet-the-team.png)
+![home page](doc/screenshots/chrome-tablet-compatibility.png)
+
+## Mobile
+
+- Here are two screenshots that are in mobile mode.
+
+![location](doc/screenshots/location-mobile.png)
+![photo gallery](doc/screenshots/chrome-mobile-compatibility.png)
