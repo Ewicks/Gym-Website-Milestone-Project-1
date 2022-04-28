@@ -148,6 +148,8 @@ The live link can be found here - https://ewicks.github.io/Gym-Website-Milestone
 
 ### Local Deployment
 
+## How to clone a project
+
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
 - `git clone https://github.com/Ewicks/Gym-Website-Milestone-Project-1.git`
@@ -155,6 +157,12 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ewicks/Gym-Website-Milestone-Project-1)
+
+## How to fork a project
+
+- Click on the repository you want to fork
+- Press the button which say's fork in the top right of the screen
+
 
 ## Credits 
 
