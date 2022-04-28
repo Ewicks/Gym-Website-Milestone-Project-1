@@ -21,6 +21,22 @@
 ![CSS](doc/screenshots/css-validation.png)
 
 
+## bugs
+
+- Below each row of images in the photo gallery section was a small white horizonatal gap.
+
+- After research on Stackoverflow I found a fix. Giving each image a display: block; gets rid of the unwanted gap.
+
+![gap-bug](doc/screenshots/gallery-gap-bug.png)
+
+I visited the website on the GitHub pages link and some of the images would not load.
+
+- After some research I was able to fix the issue by adjusting the src tag on the images. I removed the forward slash at the beginning. 
+
+![image-bug](doc/screenshots/img-loading-bug.png)
+
+
+
 ### Brower Compatibility 
 
 ## Chrome
@@ -65,6 +81,5 @@ This website has been created for all devices that have a width larger than 375p
 ## Mobile
 
 - Here are two screenshots that are in mobile mode.
-
 ![location](doc/screenshots/location-mobile.png)
 ![photo gallery](doc/screenshots/chrome-mobile-compatibility.png)

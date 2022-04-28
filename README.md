@@ -99,23 +99,9 @@ intuitively  designed to make it easy for the user to navigate.
 
 - Gym facilites section, which gives a tour of the gym. And a bit about what they can expect.
 
-## Testing 
-
-- Below each row of images in the photo gallery section was a small white horizonatal gap.
-
-- After research on Stackoverflow I found a fix. Giving each image a display: block; gets rid of the unwanted gap.
-
-![gap-bug](doc/screenshots/gallery-gap-bug.png)
-
-I visited the website on the GitHub pages link and some of the images would not load.
-
-- After some research I was able to fix the issue by adjusting the src tag on the images. I removed the forward slash at the beginning. 
-
-![image-bug](doc/screenshots/img-loading-bug.png)
 
 
-
-### Testing 
+# Testing 
 
 The link to the full testing page, which includes validator testing, brower compatibility and responive check [click here](TESTING.md). 
 
@@ -168,11 +154,9 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 - Press the button which say's fork in the top right of the screen
 
 
-## Credits 
+# Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
 
