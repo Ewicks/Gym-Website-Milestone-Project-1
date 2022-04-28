@@ -4,6 +4,8 @@ Fitness Culture is a gym located in London that needs more customers to continue
 
 ![Website visuals](doc/screenshots/website-visuals.png)
 
+Click this link to see deployed site - https://ewicks.github.io/Gym-Website-Milestone-Project-1/
+
 ## Features 
 
 It's important that all pages are responsive on small, medium and large devices. Also that all pages are  
