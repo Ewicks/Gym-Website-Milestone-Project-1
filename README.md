@@ -153,10 +153,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 - Click on the repository you want to fork
 - Press the button which say's fork in the top right of the screen
 
-
 # Credits 
-
-
 
 ### Content 
 
@@ -170,7 +167,16 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ### Media
 
-- Some of the photos in the website was from a website called [pexels](https://www.pexels.com/search/fitness/)
+- The below photos are from a website called [pexels](https://www.pexels.com/search/fitness/)
+
+![weight lifter](assets/images/man-lifting-weights.png)
+![girl jogging](assets/images/girl-jogging.png)
+![girl standing](assets/images/girl-standing.png)
+![girl squating](assets/images/girl-squat.png)
+![plank](assets/images/plank.png)
+![lat pull down](assets/images/lat-pulldown.jpeg)
+![man running](assets/images/man-running.png)
+
 
 - I got the below images from the [this](https://www.surreysportspark.co.uk/gym-and-classes/meet-the-teams/personal-trainers/) website.
 
@@ -187,29 +193,5 @@ website.
 - The below picure is from [this](https://holisminmedicine.quora.comWhat-is-the-best-way-to-maintain-sugar-at-the-optimal-levels-even-during-exercises-and-physical-work) website.
 
 ![bicep curl](assets/images/bicep-curl.jpeg)
-
-- The below picure is from [this](https://holisminmedicine.quora.comWhat-is-the-best-way-to-maintain-sugar-at-the-optimal-levels-even-during-exercises-and-physical-work) website.
-
-![bicep curl](assets/images/bicep-curl.jpeg)
-
-- The below picure is from [this](https://holisminmedicine.quora.comWhat-is-the-best-way-to-maintain-sugar-at-the-optimal-levels-even-during-exercises-and-physical-work) website.
-
-![bicep curl](assets/images/bicep-curl.jpeg)
-
-- The below picure is from [this](https://holisminmedicine.quora.comWhat-is-the-best-way-to-maintain-sugar-at-the-optimal-levels-even-during-exercises-and-physical-work) website.
-
-![bicep curl](assets/images/bicep-curl.jpeg)
-
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
 
 
