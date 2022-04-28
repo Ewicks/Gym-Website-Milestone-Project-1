@@ -389,7 +389,7 @@ q {
 .underline {
     width: 95%;
     border: 1px solid var(--color-red);
-    margin-left: 30px;
+    margin: 0 auto;
 }
 
 .pt-heading {
@@ -398,7 +398,6 @@ q {
     margin-left: 30px;
     color: gray;
     float: left;
-
 }
 
 .surename {
