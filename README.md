@@ -192,7 +192,7 @@ website.
 
 ![treadmill](assets/images/treadmill.jpeg)
 
-- The below picure is from [this](https://holisminmedicine.quora.comWhat-is-the-best-way-to-maintain-sugar-at-the-optimal-levels-even-during-exercises-and-physical-work) website.
+- The below picure is from [this](https://unsplash.com/s/photos/gyms) website.
 
 ![bicep curl](assets/images/bicep-curl.jpeg)
 
