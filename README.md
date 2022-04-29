@@ -155,7 +155,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 # Credits 
 
-### Content 
+### Content and Media
 
 - I used the Love Running Project to guide me through my project. 
 
@@ -163,11 +163,14 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 - I used a tutorial from youtube to create a hovering effect for the text in the life expearience section. The link to this video is [here](https://www.youtube.com/shorts/_1vEGYWaaQY).
 
+- I used a youtube video to showcase the gym's facilities. Click this 
+[link](https://www.youtube.com/watch?v=vhVvMYJ9Hnc&t=103s).
+
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 - Link to the google map [click here](https://www.google.com/maps/place/PureGym+London+Piccadilly/@51.512871,-0.123031,13z/data=!4m5!3m4!1s0x0:0x17999a4de3026a30!8m2!3d51.5084911!4d-0.133374?hl=en)
 
-### Media
+
 
 - The below photos are from a website called [pexels](https://www.pexels.com/search/fitness/)
 
