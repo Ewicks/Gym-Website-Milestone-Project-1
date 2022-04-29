@@ -157,14 +157,14 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ### Content and Media
 
-- I used the Love Running Project to guide me through my project. 
+- I used the Love Running Project to guide me through my project. [here](https://ewicks.github.io/love-running/)
 
-- I used the design idea of creating a vertical line between each navbar element from the repository [here](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/index.html).
+- I used the design idea of creating a vertical line between each navbar element from the repository [here](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/index.html)
 
-- I used a tutorial from youtube to create a hovering effect for the text in the life expearience section. The link to this video is [here](https://www.youtube.com/shorts/_1vEGYWaaQY).
+- I used a tutorial from youtube to create a hovering effect for the text in the life expearience section. The link to this video is [here](https://www.youtube.com/shorts/_1vEGYWaaQY)
 
 - I used a youtube video to showcase the gym's facilities. Click this 
-[link](https://www.youtube.com/watch?v=vhVvMYJ9Hnc&t=103s).
+[link](https://www.youtube.com/watch?v=vhVvMYJ9Hnc&t=103s)
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
@@ -181,7 +181,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 ![plank](assets/images/plank.png)
 ![lat pull down](assets/images/lat-pulldown.jpeg)
 ![man running](assets/images/man-running.png)
-
+![bicep curl](assets/images/man-bicep-curl.png)
 
 - I got the below images from the [this](https://www.surreysportspark.co.uk/gym-and-classes/meet-the-teams/personal-trainers/) website.
 
